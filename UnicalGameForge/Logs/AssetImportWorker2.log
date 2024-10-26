@@ -15,7 +15,7 @@ C:/Users/andre/Gioco-Unical/Gioco-UnicalGameForge/UnicalGameForge
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53361
+55705
 Successfully changed project path to: C:/Users/andre/Gioco-Unical/Gioco-UnicalGameForge/UnicalGameForge
 C:/Users/andre/Gioco-Unical/Gioco-UnicalGameForge/UnicalGameForge
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/andre/Gioco-Unical/Gioco-UnicalGameForge/UnicalGameForge
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40336] Host "[IP] 192.168.0.184 [Port] 0 [Flags] 2 [Guid] 2826644242 [EditorId] 2826644242 [Version] 1048832 [Id] WindowsEditor(7,TRAPEZIONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9508] Host "[IP] 192.168.0.184 [Port] 0 [Flags] 2 [Guid] 3856478509 [EditorId] 3856478509 [Version] 1048832 [Id] WindowsEditor(7,TRAPEZIONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [40336] Host "[IP] 192.168.0.184 [Port] 0 [Flags] 2 [Guid] 2826644242 [EditorId] 2826644242 [Version] 1048832 [Id] WindowsEditor(7,TRAPEZIONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9508] Host "[IP] 192.168.0.184 [Port] 0 [Flags] 2 [Guid] 3856478509 [EditorId] 3856478509 [Version] 1048832 [Id] WindowsEditor(7,TRAPEZIONE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 317.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.27f1 (73effa14754f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006142 seconds.
-- Loaded All Assemblies, in  0.488 seconds
+Registered in 0.004108 seconds.
+- Loaded All Assemblies, in  0.265 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.382 seconds
-Domain Reload Profiling: 870ms
-	BeginReloadAssembly (183ms)
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 474ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (181ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (82ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (156ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (383ms)
+	FinalizeReload (210ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (305ms)
+		SetupLoadedEditorAssemblies (163ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,62 +115,61 @@ Domain Reload Profiling: 870ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.133 seconds
-Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.552 seconds
-Domain Reload Profiling: 2683ms
-	BeginReloadAssembly (202ms)
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1407ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (833ms)
-		LoadAssemblies (652ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (364ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (298ms)
-			TypeCache.Refresh (264ms)
-				TypeCache.ScanAssembly (232ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1553ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (680ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1349ms)
+		SetupLoadedEditorAssemblies (553ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (1195ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 7.87 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3598 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (60.5 KB). Loaded Objects now: 4067.
-Memory consumption went from 143.6 MB to 143.5 MB.
-Total: 9.151800 ms (FindLiveObjects: 0.666300 ms CreateObjectMapping: 0.176100 ms MarkObjects: 7.986100 ms  DeleteObjects: 0.320600 ms)
+Memory consumption went from 143.5 MB to 143.4 MB.
+Total: 3.086700 ms (FindLiveObjects: 0.314100 ms CreateObjectMapping: 0.120300 ms MarkObjects: 2.525100 ms  DeleteObjects: 0.126000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/PlayerController.cs: 5b090d859ab09be631dc3b0f203f9571 -> d93a52a180fbbe603a59e9aa6da73c83
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -182,748 +181,196 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6865.564819 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/JumpDust/JumpDust06.png
-  artifactKey: Guid(cbe2ada71da2c754796e3a39b050a9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/JumpDust/JumpDust06.png using Guid(cbe2ada71da2c754796e3a39b050a9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ee92f87e5999a4e3ba2ef1f65e94c70') in 0.167778 seconds
+  Time since last request: 7551.213136 seconds.
+  path: Assets/Assets/Personaggio/Animazione/PlayerController.controller
+  artifactKey: Guid(89eb821ab8c38494e846bd64b10399a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/PlayerController.controller using Guid(89eb821ab8c38494e846bd64b10399a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2e356e5f58d7b6a4fabb9bd971b4ba') in 0.010838 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Personaggio/Animazione/LedgeClimb/LedgeClimb06.png
-  artifactKey: Guid(5026303ff0e46644eb70688ffeb690e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/LedgeClimb/LedgeClimb06.png using Guid(5026303ff0e46644eb70688ffeb690e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a0d9161e20b7e3e255d2e0029a7f1f8') in 0.039376 seconds
+  Time since last request: 0.951893 seconds.
+  path: Assets/Assets/Personaggio/Animazione/PlayerController.controller
+  artifactKey: Guid(89eb821ab8c38494e846bd64b10399a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Personaggio/Animazione/PlayerController.controller using Guid(89eb821ab8c38494e846bd64b10399a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8e63d168f57f6a450f2caa4ad907081') in 0.070887 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Land/Land02.png
-  artifactKey: Guid(87ab408c0f667804fa705ac3f89b523e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Land/Land02.png using Guid(87ab408c0f667804fa705ac3f89b523e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb2637ba94c26b2eb60556d15bafe1d5') in 0.029385 seconds
+  Time since last request: 558.435212 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Weapons/BladeWallImpact/BladeWallImpact01.png
+  artifactKey: Guid(f8da54b01b042504b9ab7ed29bbfd14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Weapons/BladeWallImpact/BladeWallImpact01.png using Guid(f8da54b01b042504b9ab7ed29bbfd14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c686cc8fa0c9be150dded93cce8c7d2a') in 0.041718 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/RollDust/RollDust07.png
-  artifactKey: Guid(d74ab54e87d0e7e4f93b45241c65590d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/RollDust/RollDust07.png using Guid(d74ab54e87d0e7e4f93b45241c65590d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd42de2c3499fcc12b079cc6806bffb4f') in 0.032546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordIdle/SwordIdle07.png
-  artifactKey: Guid(63a26eca327f24e4d91a4f599f55c9b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordIdle/SwordIdle07.png using Guid(63a26eca327f24e4d91a4f599f55c9b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b5ce43b345bd8ad4110d7e00f0f47da') in 0.028573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Personaggio/Animazione/JumpRise
-  artifactKey: Guid(c3dd4f3933be8d74480359d942771914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/JumpRise using Guid(c3dd4f3933be8d74480359d942771914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1435f6a153997618da7bb4940378084e') in 0.017288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbGrab/ClimbGrab01.png
-  artifactKey: Guid(15afff66670dc414cb1f4bb111268da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbGrab/ClimbGrab01.png using Guid(15afff66670dc414cb1f4bb111268da3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b1d1abeef79359bd218f2ded2d40a22') in 0.031900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordCombo01/SwordCombo0103.png
-  artifactKey: Guid(f7c1cf8b00af77c4c8566d06bb5accc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordCombo01/SwordCombo0103.png using Guid(f7c1cf8b00af77c4c8566d06bb5accc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af64d38cb026813f6ce20997dc05ab66') in 0.027050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbDownLeft/ClimbDownLeft03.png
-  artifactKey: Guid(283380d02ba709b4fab7c075f33a0b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbDownLeft/ClimbDownLeft03.png using Guid(283380d02ba709b4fab7c075f33a0b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3dd95b21aee05fc57c5c4a0b0adbba6') in 0.034021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/Kick01/Kick0104.png
-  artifactKey: Guid(9c2dc243f76f83745ab1e7ab231bd9ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/Kick01/Kick0104.png using Guid(9c2dc243f76f83745ab1e7ab231bd9ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb9fc6273264d07ad179553f466c3487') in 0.031125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/LedgeHangDust/LedgeHangDust02.png
-  artifactKey: Guid(84d414f50719714498466f61f1ddef3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/LedgeHangDust/LedgeHangDust02.png using Guid(84d414f50719714498466f61f1ddef3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '864b0a196ff110fff1272d7d281cde15') in 0.029252 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Personaggio/Animazione/MonkeyBarsClimb/MonkeyBarsClimb06.png
-  artifactKey: Guid(9b97cb56aea7ec140b51afeab30fdec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/MonkeyBarsClimb/MonkeyBarsClimb06.png using Guid(9b97cb56aea7ec140b51afeab30fdec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec8d391fab107a8dea258ff04999ec13') in 0.027100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/Personaggio/Animazione/LookUp/LookUp03.png
-  artifactKey: Guid(153752ce0f18ed243bb2296b0acc7b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/LookUp/LookUp03.png using Guid(153752ce0f18ed243bb2296b0acc7b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b67782f6e8f459fec14d8f5949db02d') in 0.031220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordIdle/SwordIdle04.png
-  artifactKey: Guid(3f01a56893dfb164286a671de556464a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordIdle/SwordIdle04.png using Guid(3f01a56893dfb164286a671de556464a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0226e979046d31dccecbff602cc21aa6') in 0.034977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Personaggio/Animazione/JumpFall
-  artifactKey: Guid(22d83a3475f2e8641b922649085891eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/JumpFall using Guid(22d83a3475f2e8641b922649085891eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47abb58d4047fd86625a2560b39eab3f') in 0.019962 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbUpLeft/ClimbUpLeft07.png
-  artifactKey: Guid(dbd7c0318b6acb148971a361254319d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbUpLeft/ClimbUpLeft07.png using Guid(dbd7c0318b6acb148971a361254319d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae580905da46ca1707db73e1b41721db') in 0.034268 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Roll/Roll03.png
-  artifactKey: Guid(da5a3cf3b83384b4d80ab8b68f03dbf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Roll/Roll03.png using Guid(da5a3cf3b83384b4d80ab8b68f03dbf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3866957a72b9703461c2cab73f493a9f') in 0.032561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Cast/Cast01.png
-  artifactKey: Guid(687cf4fdaa473174da4088c0d194e904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Cast/Cast01.png using Guid(687cf4fdaa473174da4088c0d194e904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a6d1a03bccb5aeab649a6f5df7169b7') in 0.033782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Weapons/BladeWallImpact/BladeWallImpact05.png
-  artifactKey: Guid(d3059092dad602f4aa61a1d534fe921f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Weapons/BladeWallImpact/BladeWallImpact05.png using Guid(d3059092dad602f4aa61a1d534fe921f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02e9a6d799cd66fd7e4f49628b82e7a1') in 0.028750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Catch/Catch07.png
-  artifactKey: Guid(0644021a1c1db3443a53060f0096d19c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Catch/Catch07.png using Guid(0644021a1c1db3443a53060f0096d19c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8ded86291796de72d1897be4c3f9a45') in 0.032304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordRunSlash/SwordRunSlash03.png
-  artifactKey: Guid(f211c0fefdb981a4ca303b8d538ba1f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordRunSlash/SwordRunSlash03.png using Guid(f211c0fefdb981a4ca303b8d538ba1f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82d73bd45eac7abf296d1254f33101fe') in 0.032081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GuardImpact/GuardImpact03.png
-  artifactKey: Guid(f1e456c71bac91c42b3f4bb0ca92b13f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GuardImpact/GuardImpact03.png using Guid(f1e456c71bac91c42b3f4bb0ca92b13f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6106437f1c3dcccdbd66145f0ed55e27') in 0.027067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/Personaggio/Animazione/LedgeGrab/LedgeGrab05.png
-  artifactKey: Guid(852910a420be94a4bafeb09876975337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/LedgeGrab/LedgeGrab05.png using Guid(852910a420be94a4bafeb09876975337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bf8b5cd4c7880f87955b38f4aceec26') in 0.029346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordWalk/SwordWalk01.png
-  artifactKey: Guid(4807ff2cd59db274580cf46c112423e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordWalk/SwordWalk01.png using Guid(4807ff2cd59db274580cf46c112423e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0497f6090eaad8b15446bd5aa723195d') in 0.026207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Spin/Spin02.png
-  artifactKey: Guid(ce92d53b10822f8478ea0681c4061b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Spin/Spin02.png using Guid(ce92d53b10822f8478ea0681c4061b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a2cbfe183a71d1bb18f367944c61118') in 0.027947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/Kick02/Kick0203.png
-  artifactKey: Guid(0a6a7bbac2ccfa84399cd1ec34ae436b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/Kick02/Kick0203.png using Guid(0a6a7bbac2ccfa84399cd1ec34ae436b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fd4cbb8ad9d00e0d85f9bebb8ff684c') in 0.033065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Reel/Reel01.png
-  artifactKey: Guid(7fc8afcdd6a2e3e4ca75d24383c763d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Reel/Reel01.png using Guid(7fc8afcdd6a2e3e4ca75d24383c763d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d50f18f499a0975f7f1cd838c41518c') in 0.030645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets/Personaggio/Animazione/MonkeyBarIdle/MonkeyBarIdle07.png
-  artifactKey: Guid(f803ab5fded6d7340b82f0435f34a20e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/MonkeyBarIdle/MonkeyBarIdle07.png using Guid(f803ab5fded6d7340b82f0435f34a20e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dfa25307331ee899ba05ac13fc68772') in 0.033418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/BulletImpact/BulletImpact02.png
-  artifactKey: Guid(f1921d0d5e9ca404a8e0039f23d5013d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/BulletImpact/BulletImpact02.png using Guid(f1921d0d5e9ca404a8e0039f23d5013d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c8202ac3cf651e36c80d5c8ddcffb8c') in 0.038838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/StandingSlash/StandingSlash03.png
-  artifactKey: Guid(e026b9d0c3471264daa44f2205bd25fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/StandingSlash/StandingSlash03.png using Guid(e026b9d0c3471264daa44f2205bd25fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac55ab7ca3ede52e83f80db1fbe69af2') in 0.101564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunRunFire/GunRunFire03.png
-  artifactKey: Guid(a182162b253cf7142899113663f9cb25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunRunFire/GunRunFire03.png using Guid(a182162b253cf7142899113663f9cb25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc7d1cca3b312ff17a644b5a76b83f3c') in 0.144955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Spin/Spin07.png
-  artifactKey: Guid(e6c46f7fceae44e4cbcc16b402552958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Spin/Spin07.png using Guid(e6c46f7fceae44e4cbcc16b402552958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a07fd82a97c606b2453b5dd77fbfcad9') in 0.045595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordSprintSlash/SwordSprintSlash04.png
-  artifactKey: Guid(d12115106c36a0e46bab7245d8f67749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordSprintSlash/SwordSprintSlash04.png using Guid(d12115106c36a0e46bab7245d8f67749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '410ffe2b1d21c4a356b5097eafb0c7b2') in 0.071993 seconds
+  path: Assets/Assets/Personaggio/Animazione/Weapons/BowAim/BowAim01.png
+  artifactKey: Guid(fd66c042e9a7f3240b23eaf637f877f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Weapons/BowAim/BowAim01.png using Guid(fd66c042e9a7f3240b23eaf637f877f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2d29430f2756d01be2479793ee69f9') in 0.015156 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/Punch02
-  artifactKey: Guid(f3ad0e6e245b1c54da14889af8b2be92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/Punch02 using Guid(f3ad0e6e245b1c54da14889af8b2be92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fd294fa3e6f7a6f2b11babd35143d2a') in 0.028733 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Weapons/BowAim/BowAim02.png
+  artifactKey: Guid(511f41df99fd57c4b8577654a65334c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Weapons/BowAim/BowAim02.png using Guid(511f41df99fd57c4b8577654a65334c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbe29ed238d8fd1f0a0f88063d29131') in 0.013581 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/DoubleJump/DoubleJump02.png
-  artifactKey: Guid(354c8867c262af3409317a79f231007d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/DoubleJump/DoubleJump02.png using Guid(354c8867c262af3409317a79f231007d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd45785c8dfed00ed34d706dc68893864') in 0.047288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Die/Die05.png
-  artifactKey: Guid(92852e76d137618469e3cc7c861f0181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Die/Die05.png using Guid(92852e76d137618469e3cc7c861f0181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e30baf32fc877a86560809709485cb28') in 0.038894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/CrouchSlash/CrouchSlash01.png
-  artifactKey: Guid(ece11618af34332438b9c10cd9917686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/CrouchSlash/CrouchSlash01.png using Guid(ece11618af34332438b9c10cd9917686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a3e3f5da55a6d2a8d7e3591979851cd') in 0.035223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordSprint/SwordSprint03.png
-  artifactKey: Guid(32344dde3a1fa18418c3cde05409a876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordSprint/SwordSprint03.png using Guid(32344dde3a1fa18418c3cde05409a876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a489e27dbf8c5fdcf3157012dc5f1506') in 0.031532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Assets/Personaggio/Animazione/MonkeyBarIdle/MonkeyBarIdle06.png
-  artifactKey: Guid(64522dc4aaec55143895775717830d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/MonkeyBarIdle/MonkeyBarIdle06.png using Guid(64522dc4aaec55143895775717830d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '015797279e258208b98473f4d308aa47') in 0.032701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunFire2H/GunFire2H04.png
-  artifactKey: Guid(d4b945227e4b60b479aff765dba07fdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunFire2H/GunFire2H04.png using Guid(d4b945227e4b60b479aff765dba07fdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f6674441f87d763e66899cc144dc2e7') in 0.034532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Assets/Personaggio/Animazione/IdleTransition/IdleTransition02.png
-  artifactKey: Guid(f39868f3fa18dcb42a533129537a1b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/IdleTransition/IdleTransition02.png using Guid(f39868f3fa18dcb42a533129537a1b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c8bfcd91edeaf92d3f424e7e0b59cf2') in 0.040627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Walk/Walk02.png
-  artifactKey: Guid(294cba7119bf6d64c9072b1bd8f13329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Walk/Walk02.png using Guid(294cba7119bf6d64c9072b1bd8f13329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '346d90010a98f8e7d7430badf417d3af') in 0.051366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunRunFire/GunRunFire08.png
-  artifactKey: Guid(af48ffde26a70594ca6b697f7c3831ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunRunFire/GunRunFire08.png using Guid(af48ffde26a70594ca6b697f7c3831ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e99f48d9e294cc0c21aa17feb75410fc') in 0.034067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbLeft
-  artifactKey: Guid(e5c2885e9fdf45a46ba19ba1cb461e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbLeft using Guid(e5c2885e9fdf45a46ba19ba1cb461e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b42ac12671e1ef0658272a38e76039c') in 0.031320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/LedgeHangDust/LedgeHangDust04.png
-  artifactKey: Guid(3f79792cf6e0a1a44b96e422d5b96f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/LedgeHangDust/LedgeHangDust04.png using Guid(3f79792cf6e0a1a44b96e422d5b96f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b21b7186632848736420f542dae442b') in 0.029852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/BowDraw/BowDraw01.png
-  artifactKey: Guid(fc8daeefcbae5404fbb1dba6f9db35aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/BowDraw/BowDraw01.png using Guid(fc8daeefcbae5404fbb1dba6f9db35aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23664413663e85c2f2175c10f4259f91') in 0.031374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/RunDustFront/RunDustFront08.png
-  artifactKey: Guid(3d9e56895a1e19f43a9bf8ae9d184af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/RunDustFront/RunDustFront08.png using Guid(3d9e56895a1e19f43a9bf8ae9d184af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99d715581a842d737290355d306e87ee') in 0.037359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Reel/Reel04.png
-  artifactKey: Guid(877e3fad8a554054eb7e800bc8d0af3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Reel/Reel04.png using Guid(877e3fad8a554054eb7e800bc8d0af3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a4f4e8e7ab032c8f08e5cb3ea072699') in 0.034860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Prepare/Prepare02.png
-  artifactKey: Guid(0025569386105ca4c88dce74dd4abc96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Prepare/Prepare02.png using Guid(0025569386105ca4c88dce74dd4abc96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38d09f0791eaefc39fd7773d19e3409c') in 0.033927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/BulletImpact/BulletImpact06.png
-  artifactKey: Guid(71222597f2c8fa2429146fbb3b1f10e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/BulletImpact/BulletImpact06.png using Guid(71222597f2c8fa2429146fbb3b1f10e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfb861df2d3c406e4af8c6cbf7df26ae') in 0.034067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/RunDustBack/RunDustBack02.png
-  artifactKey: Guid(ebc6f0b256bac0f43b092101736c454e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/RunDustBack/RunDustBack02.png using Guid(ebc6f0b256bac0f43b092101736c454e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9cf6aabb6455795943aa332792bb5d4') in 0.033401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/Kick02/Kick0206.png
-  artifactKey: Guid(e423ef2ae1c70dd4ba7dc66b35807151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/Kick02/Kick0206.png using Guid(e423ef2ae1c70dd4ba7dc66b35807151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90dec3ddb7b03a7ff42e5a8641da6773') in 0.029748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GroundSlam/GroundSlam06.png
-  artifactKey: Guid(23ca8cce0a4d03b428c7ebcfee8a382e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GroundSlam/GroundSlam06.png using Guid(23ca8cce0a4d03b428c7ebcfee8a382e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2220aa86063d7791e681f8e49b6c1324') in 0.035442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordRunSlash/SwordRunSlash06.png
-  artifactKey: Guid(918ec3de6e2da0d46831c36838b655f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordRunSlash/SwordRunSlash06.png using Guid(918ec3de6e2da0d46831c36838b655f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c94081e2354fbdf17ad020ce28d86ab4') in 0.036146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/BowFire/BowFire05.png
-  artifactKey: Guid(a7980dd5a6541444eb50cc26b0e1ed17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/BowFire/BowFire05.png using Guid(a7980dd5a6541444eb50cc26b0e1ed17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58ec3d5333911a52edca0ae1d3cf2c38') in 0.038307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000685 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordRunSlash/SwordRunSlash04.png
-  artifactKey: Guid(90c63f608c48b2b41b960494ad351b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordRunSlash/SwordRunSlash04.png using Guid(90c63f608c48b2b41b960494ad351b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '748072bf66a6c13492fc7eb59c4bde8c') in 0.057165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunRun/GunRun04.png
-  artifactKey: Guid(5bcacbbefc58d2e44bcf212d7b3e29a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunRun/GunRun04.png using Guid(5bcacbbefc58d2e44bcf212d7b3e29a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39841b5d7b5ce6e0a2ffc187c76e701c') in 0.033875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordCombo04/SwordCombo0402.png
-  artifactKey: Guid(d58c39a2097de3b48b84d37289099318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordCombo04/SwordCombo0402.png using Guid(d58c39a2097de3b48b84d37289099318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74e79998eaad40166a3f5b806c06447a') in 0.036856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/AirSlashDown/AirSlashDown05.png
-  artifactKey: Guid(c913d08beb3c6cd4fa2e7b657da6b2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/AirSlashDown/AirSlashDown05.png using Guid(c913d08beb3c6cd4fa2e7b657da6b2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '583a0c63f3886b0658d7db2c8beb8de6') in 0.029732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunCrouch
-  artifactKey: Guid(4023c6c8ad2126c46980930fca76ab78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunCrouch using Guid(4023c6c8ad2126c46980930fca76ab78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b12269db2eb0c50725831f8719aea2d6') in 0.022148 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/ThrowUnderarm/ThrowUnderarm02.png
-  artifactKey: Guid(238d6737f6eb8ea46bfe34a5d27b6caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/ThrowUnderarm/ThrowUnderarm02.png using Guid(238d6737f6eb8ea46bfe34a5d27b6caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbaf5ef3d488c543c41d4ec81769333c') in 0.033721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Assets/Personaggio/Animazione/PushIdle/PushIdle05.png
-  artifactKey: Guid(7f31d62011f63704793c90750bb38525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/PushIdle/PushIdle05.png using Guid(7f31d62011f63704793c90750bb38525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '624d20ff559c0c9f88659923b21488bd') in 0.046968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbDownLeft/ClimbDownLeft08.png
-  artifactKey: Guid(916a623da547e064b8e5b19521898b0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbDownLeft/ClimbDownLeft08.png using Guid(916a623da547e064b8e5b19521898b0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb476396edf563c48aca6c59d7352168') in 0.052544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Assets/Personaggio/Animazione/WallSlide
-  artifactKey: Guid(d45b46ff3e605324f92dc9990e538306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/WallSlide using Guid(d45b46ff3e605324f92dc9990e538306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c17d28c666c836301d4e179da4064a7b') in 0.025294 seconds
+  path: Assets/Assets/Personaggio/Animazione/Weapons/BowAim/BowAim03.png
+  artifactKey: Guid(6c1609a993f9c5a419b40e9776c9fd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Weapons/BowAim/BowAim03.png using Guid(6c1609a993f9c5a419b40e9776c9fd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febf97d0c337b80fcb4474d481c4688a') in 0.009068 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Weapons/BladeSpin/BladeSpin02.png
-  artifactKey: Guid(438b74f89b19706418be0a054a1be1f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Weapons/BladeSpin/BladeSpin02.png using Guid(438b74f89b19706418be0a054a1be1f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7ed4aedbb25d4dd59ba439ffe670c5d') in 0.040406 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Weapons/BladeWallImpact/BladeWallImpact04.png
+  artifactKey: Guid(445700f748ee8454283c43dde9e9f2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Weapons/BladeWallImpact/BladeWallImpact04.png using Guid(445700f748ee8454283c43dde9e9f2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a513c9ab45bcb29c8d9296f49f1ccf8') in 0.017623 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbRight/ClimbRight03.png
-  artifactKey: Guid(2fb267761a1dede408b7a0973a0e6f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbRight/ClimbRight03.png using Guid(2fb267761a1dede408b7a0973a0e6f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1de178f44d264212c2573a169d43094c') in 0.029640 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/BowAim/BowAim03.png
+  artifactKey: Guid(b8751f6b63e10c14b912a60b38f240be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/BowAim/BowAim03.png using Guid(b8751f6b63e10c14b912a60b38f240be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef8e29693f51eac8054c2a3203f1a8d') in 0.018801 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Assets/Personaggio/Animazione/WallClimbIdle
-  artifactKey: Guid(df169979de5a4c34c83f71ac32d7f19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/WallClimbIdle using Guid(df169979de5a4c34c83f71ac32d7f19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03259588827e49695d3230018c84c51b') in 0.019966 seconds
+  Time since last request: 0.799329 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk01.png
+  artifactKey: Guid(41355268d27554a4390dca7a285a1304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk01.png using Guid(41355268d27554a4390dca7a285a1304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8914bdb23ff0ac13bff6ba0d62c6e57') in 0.017015 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Catch
-  artifactKey: Guid(8d689d5c5776eae4791d0d684f5e3f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Catch using Guid(8d689d5c5776eae4791d0d684f5e3f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6b5235293797f612bb4286120e0902b') in 0.024681 seconds
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk04.png
+  artifactKey: Guid(d41fe077819a3a440be6b104ed0fc69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk04.png using Guid(d41fe077819a3a440be6b104ed0fc69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a048f7d349caa7e3b98ce44d38b8ab04') in 0.017971 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Personaggio/Animazione/MonkeyBarsClimb/MonkeyBarsClimb05.png
-  artifactKey: Guid(70fbc561bb77f114ca56d8d0c9bfa1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/MonkeyBarsClimb/MonkeyBarsClimb05.png using Guid(70fbc561bb77f114ca56d8d0c9bfa1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88bb0183d1917727051db3303779ab06') in 0.041439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordIdle/SwordIdle02.png
-  artifactKey: Guid(b284243e7e2c6884090d6b077727b45e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordIdle/SwordIdle02.png using Guid(b284243e7e2c6884090d6b077727b45e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f14ceb9bcd958c3702a138b571067c3') in 0.031635 seconds
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk06.png
+  artifactKey: Guid(34a01b06eb4c95f4c908bedcf9ee55b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk06.png using Guid(34a01b06eb4c95f4c908bedcf9ee55b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c9d7a6c0480064cb4b737905d035f5') in 0.011483 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunSprintFire/GunSprintFire05.png
-  artifactKey: Guid(c8321d50baa2be043a312b30f7298e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunSprintFire/GunSprintFire05.png using Guid(c8321d50baa2be043a312b30f7298e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b06e6ff30fed38f95bce9f984da73710') in 0.042869 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire02.png
+  artifactKey: Guid(e8d14dd258bd5f341a811fe69cd53d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire02.png using Guid(e8d14dd258bd5f341a811fe69cd53d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a022aaedd403ba7c46d73ee595eca07c') in 0.019779 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Jump
-  artifactKey: Guid(e267727a5ee64034e8ca9940d254aea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Jump using Guid(e267727a5ee64034e8ca9940d254aea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '995b64801145aacf69898f47891c3682') in 0.042226 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire05.png
+  artifactKey: Guid(38185ee756da566438634044651b0770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire05.png using Guid(38185ee756da566438634044651b0770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86001922425ca67bc4911e397e04f4a6') in 0.016476 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbDownLeft/ClimbDownLeft02.png
-  artifactKey: Guid(d3e8d11f450fdfb42a878c82325c3ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbDownLeft/ClimbDownLeft02.png using Guid(d3e8d11f450fdfb42a878c82325c3ec9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef688e022ceb423e92f5e9954c002490') in 0.050688 seconds
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire07.png
+  artifactKey: Guid(b8d171655b47e554ca06ec323679126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire07.png using Guid(b8d171655b47e554ca06ec323679126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d68691b0ab9fac3fcd336d2281e32c5') in 0.017270 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordCrouch
-  artifactKey: Guid(13862d58647fe384380e7c00866851d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordCrouch using Guid(13862d58647fe384380e7c00866851d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1406c71f24dc74dc8e8f79bae1f40eca') in 0.032204 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk08.png
+  artifactKey: Guid(eac94bff0c1631e4ea3fede4145974a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk08.png using Guid(eac94bff0c1631e4ea3fede4145974a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b435782ed9dc002df9966d73e74ea6b') in 0.015383 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Assets/Personaggio/Animazione/DashStart/DashStart02.png
-  artifactKey: Guid(052a04c249009454eb08d9ca4d07b870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/DashStart/DashStart02.png using Guid(052a04c249009454eb08d9ca4d07b870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '996585afe9ee7673a990204ec252b2bd') in 0.052418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbUpLeft/ClimbUpLeft04.png
-  artifactKey: Guid(5652d35a97361a34aa299cd6ba5eaa5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbUpLeft/ClimbUpLeft04.png using Guid(5652d35a97361a34aa299cd6ba5eaa5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '786615e2dd3513a4aabec902f74b1983') in 0.038948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbUpRight
-  artifactKey: Guid(f74fba4282dde274cbb675ed0a9e26ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbUpRight using Guid(f74fba4282dde274cbb675ed0a9e26ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '041e8bae3002244c67d11d37132b019b') in 0.020159 seconds
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire01.png
+  artifactKey: Guid(695cfe4a6f9a4d9489065701be537daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalkFire/GunWalkFire01.png using Guid(695cfe4a6f9a4d9489065701be537daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07f936fa9119a46e15087dae62526ff') in 0.023492 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/WallJumpDust/WallJumpDust01.png
-  artifactKey: Guid(678b63f4f231eb84e9bd9982fff274c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/WallJumpDust/WallJumpDust01.png using Guid(678b63f4f231eb84e9bd9982fff274c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00f2d35da9c18c6569ede8b5387c846e') in 0.034814 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk07.png
+  artifactKey: Guid(9628a8d2a7752c747a81acb53473a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/GunWalk/GunWalk07.png using Guid(9628a8d2a7752c747a81acb53473a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ec3ce5e655657b0ce008a8be786fff') in 0.021088 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Idle/Idle03.png
-  artifactKey: Guid(7479640b23e9d9849adc74a33e0ceb53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Idle/Idle03.png using Guid(7479640b23e9d9849adc74a33e0ceb53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f6446427ce808119d4449f0d97bb8cb') in 0.029460 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/SwordWalk/SwordWalk02.png
+  artifactKey: Guid(d55f28796247cbb43846f2d03ba3b871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordWalk/SwordWalk02.png using Guid(d55f28796247cbb43846f2d03ba3b871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5e02c197928bf24565790cbd63765a') in 0.019841 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Assets/Personaggio/Animazione/WallClimbIdle/WallClimbIdle03.png
-  artifactKey: Guid(e319b1864e7297243830e79b263d7bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/WallClimbIdle/WallClimbIdle03.png using Guid(e319b1864e7297243830e79b263d7bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c7e632e3ab6232cd2e802b3c2cfe1d1') in 0.028855 seconds
+  Time since last request: 2.482035 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Walk
+  artifactKey: Guid(d5abaf382fd8c2d4289ef7ba4118cb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Walk using Guid(d5abaf382fd8c2d4289ef7ba4118cb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655ccd2798213f73de6faee607103f48') in 0.002665 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FrontFlip/FrontFlip01.png
-  artifactKey: Guid(1c72e0727b2aeff4da12a0fdee965543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FrontFlip/FrontFlip01.png using Guid(1c72e0727b2aeff4da12a0fdee965543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01ff1bcc6e3d701d96c6d6f7ae0013c7') in 0.028851 seconds
+  Time since last request: 0.074622 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Walk/Walk01.png
+  artifactKey: Guid(b6ba19775c5c9084c90a467f9dbe7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Walk/Walk01.png using Guid(b6ba19775c5c9084c90a467f9dbe7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7e2bf44095822595e3e1c5ab21c1d0') in 0.020842 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Assets/Personaggio/Animazione/LookUp
-  artifactKey: Guid(cfb4f3380e5d848439d8a5b50fd1d987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/LookUp using Guid(cfb4f3380e5d848439d8a5b50fd1d987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d8999c4ca2be97038a3d900fb5e69ca') in 0.020796 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Walk/Walk04.png
+  artifactKey: Guid(22c7b1c1add42fc479cb1430afe26b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Walk/Walk04.png using Guid(22c7b1c1add42fc479cb1430afe26b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19104e668e339e2cdb006dc099cbc6e1') in 0.016865 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/Personaggio/Animazione/ClimbRight
-  artifactKey: Guid(9012f9f13f68d8e4582d215764894886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/ClimbRight using Guid(9012f9f13f68d8e4582d215764894886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87d8876ce87952bb395e0d2f23eacd74') in 0.021452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/SwordCombo04/SwordCombo0405.png
-  artifactKey: Guid(869463b04fa403142b6b41d45c19d1bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/SwordCombo04/SwordCombo0405.png using Guid(869463b04fa403142b6b41d45c19d1bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '738bc86b860830aa5ee4fc8be8ca21f0') in 0.028341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Fishing/Idle/Idle06.png
-  artifactKey: Guid(226387a1a94824d498f9de095ce0e166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Fishing/Idle/Idle06.png using Guid(226387a1a94824d498f9de095ce0e166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2bfd7c052b511b6fca5153c86a675ff') in 0.030333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/LandingDust/LandingDust03.png
-  artifactKey: Guid(14e12365b58387b4cb5cdd6e14ce02e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/LandingDust/LandingDust03.png using Guid(14e12365b58387b4cb5cdd6e14ce02e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3451e5aec8a2045d0bffa5ff956652b') in 0.031773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunCrouchFire/GunCrouchFire01.png
-  artifactKey: Guid(7e557e57ea41a024a935892055ccc713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunCrouchFire/GunCrouchFire01.png using Guid(7e557e57ea41a024a935892055ccc713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c85256bb9e45c730ed7c32ef614ff36f') in 0.027744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Spin/Spin03.png
-  artifactKey: Guid(ee88fd7b47e782246a3a1dadceff0009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Spin/Spin03.png using Guid(ee88fd7b47e782246a3a1dadceff0009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d1d941fdf72a462b91df92c950f9e80') in 0.028394 seconds
+  path: Assets/Assets/Personaggio/Animazione/Walk/Walk05.png
+  artifactKey: Guid(77bb13983a88b454fbab5962b682a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Walk/Walk05.png using Guid(77bb13983a88b454fbab5962b682a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee46dd8c3bd9f94da0463f772c9a3243') in 0.018722 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Assets/Personaggio/Animazione/WallSlide/WallSlide01.png
-  artifactKey: Guid(03df03fbdfd297241a999815b0bfe51b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/WallSlide/WallSlide01.png using Guid(03df03fbdfd297241a999815b0bfe51b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8993b6264a9d2113c0429b3afa0e8cd1') in 0.031942 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Walk/Walk07.png
+  artifactKey: Guid(b5510b4ee12ad964f88600b3643ee6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Walk/Walk07.png using Guid(b5510b4ee12ad964f88600b3643ee6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3143f635d8ec9f721765f782c8ec757c') in 0.020672 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Combat/GunRun/GunRun02.png
-  artifactKey: Guid(e37d70e156f20e049864e4edfa1dc11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Combat/GunRun/GunRun02.png using Guid(e37d70e156f20e049864e4edfa1dc11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9772e20c1bfe11aeee6ea0ad8b86c173') in 0.026098 seconds
+  Time since last request: 7.941600 seconds.
+  path: Assets/Assets/Personaggio/Animazione/Combat/BowAim/BowAim04.png
+  artifactKey: Guid(c21631d95de61a447a036023ef697e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Personaggio/Animazione/Combat/BowAim/BowAim04.png using Guid(c21631d95de61a447a036023ef697e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db6ac4f23fbcb21fe6a15ccddf1af2f') in 0.021471 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/Personaggio/Animazione/Dash/Dash06.png
-  artifactKey: Guid(af93d53b4c4861b4b823d1af0bce4f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/Dash/Dash06.png using Guid(af93d53b4c4861b4b823d1af0bce4f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2c625cb393255fa11fc6165a617c646') in 0.031840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/MuzzleFlash/MuzzleFlash01.png
-  artifactKey: Guid(4552700cec906a64f9cedb6a655eaf85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/MuzzleFlash/MuzzleFlash01.png using Guid(4552700cec906a64f9cedb6a655eaf85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2e2b942e24a91afcc62d66d6caeea1e') in 0.035263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Assets/Personaggio/Animazione/FX/SlideDust/SlideDust01.png
-  artifactKey: Guid(1a4b602a7c2f7234d96837d1cf9420dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assets/Personaggio/Animazione/FX/SlideDust/SlideDust01.png using Guid(1a4b602a7c2f7234d96837d1cf9420dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2b31ec423f653d045a7084e1bb52ce0') in 0.035818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Operazione di I/O terminata a causa dell'uscita dal thread oppure della richiesta di un'applicazione.
 AssetImportWorker is now disconnected from the server
